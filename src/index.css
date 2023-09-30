@@ -1,0 +1,99 @@
+:root{
+    --color-white : #e0e2e7;
+}
+
+/* disen home */
+.homepage{
+    background: linear-gradient(to right, #36393e, #303d4f, #5465a1);
+    
+}
+.homepage .home h1,
+.homepage .home p{
+    color: var(--color-white);
+}
+.homepage .home .row:nth-child(1){
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.homepage .menu{
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.homepage .home button{
+    font-size: 40px;
+    padding: 10px 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.homepage .home button:hover{
+    /* margin-top: -20px; */
+    transition: all 0.3s ease;
+    padding: 10px 110px;
+    letter-spacing: 5px;
+}
+
+/* disen canvas */
+
+.canvas{
+    min-height: 70vh;
+    border-radius: 20px;
+    border: 2px solid var(--color-white);
+}
+
+/* disen array page */
+
+.arraypage {
+    background: linear-gradient(to right, #36393e, #303d4f, #5465a1);
+}
+.arraypage .array h1{
+    color: var(--color-white);
+    padding: 50px 0;
+}
+.arraypage .array .row:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.arraypage .array .row:nth-child(4){
+    font-size: 300px;
+}
+
+/* disen star page */
+.starpage {
+    background: linear-gradient(to right, #36393e, #303d4f, #5465a1);
+}
+.starpage .star h1{
+    color: var(--color-white);
+    padding: 50px 0;
+}
+
+/* disen api page */
+
+.apipage {
+    background: linear-gradient(to right, #36393e, #303d4f, #5465a1);
+}
+.apipage .api h1{
+    color: var(--color-white);
+    padding: 50px 0;
+}
+
+.gambarMuka{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid var(--color-white);
+    margin: 10px;
+}
+
+table,th,td{
+    padding: 10px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+
+
+
