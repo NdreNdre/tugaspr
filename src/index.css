@@ -88,11 +88,46 @@
     margin: 10px;
 }
 
+.user-list{
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
 table,th,td{
     padding: 10px;
     border: 1px solid white;
     border-collapse: collapse;
 }
+
+.user-detail{
+    
+}
+
+.user-detail-canvas{
+    
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+
+.user-detail-canvas h2{
+    color: var(--color-white);
+}
+.user-detail-canvas p{
+    color: var(--color-white);
+}
+
+
+.user-detail-canvas img{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+}
+ 
 
 
 
